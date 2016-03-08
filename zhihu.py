@@ -8,10 +8,13 @@ __author__ = 'waiting'
 '''
 
 #收藏夹的地址
-url = 'https://www.zhihu.com/collection/69135664?page='
+#url = 'https://www.zhihu.com/collection/69135664?page='
+#手动输入知乎的ID
 
+id =raw_input("输入收藏夹ID神秘代码:\n")
+url = 'https://www.zhihu.com/collection/'+id+'?page='
 #本地存放的路径,不存在会自动创建
-store_path = '/Users/king/Pictures/zhihu/攻不可破的大美妞阵线联盟'
+store_path = '/Users/king/Pictures/zhihu/江山如此多娇'
 
 import sys
 reload(sys)
